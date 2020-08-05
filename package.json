@@ -1,0 +1,13 @@
+{
+  "name": "awesome-bem-scss",
+  "version": "0.0.8",
+  "description": "",
+  "main": "dist/bem.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
