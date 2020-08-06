@@ -17,8 +17,5 @@
     "url": "git+https://github.com/justbefree/awesome-bem-scss.git"
   },
   "homepage": "https://github.com/justbefree/awesome-bem-scss#readme",
-  "description": "BEM technology implemented by SCSS & TypeScript",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  }
+  "description": "BEM technology implemented by SCSS & TypeScript"
 }
