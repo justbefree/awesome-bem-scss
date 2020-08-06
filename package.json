@@ -1,6 +1,6 @@
 {
   "name": "awesome-bem-scss",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "main": "dist/bem.js",
   "scripts": {
     "build": "tsc",
@@ -17,5 +17,5 @@
     "url": "git+https://github.com/justbefree/awesome-bem-scss.git"
   },
   "homepage": "https://github.com/justbefree/awesome-bem-scss#readme",
-  "description": ""
+  "description": "BEM technology implemented by SCSS & TypeScript"
 }
