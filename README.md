@@ -40,3 +40,6 @@ createBem({ block: "active" }, { element: "active" }); => bem-block--active__ele
 createBem({ block: { warning: "is-show" } }); => bem-block--warning--is-show
 
 ```
+
+## Links
+ - [BEM](https://lizhuang.xyz/youdefine-docs/bem/)
