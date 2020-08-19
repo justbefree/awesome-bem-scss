@@ -27,17 +27,25 @@ BEM.config({
   elementSeparator: "__" // 元素连接符
 });
 
-createBem("block"); => bem-block
-    
-createBem("block", "element"); => bem-block__element
+createBem("block"); => block
 
-createBem({ block: "green" }); => bem-block--green
+createBem("block", "element"); => block__element
 
-createBem("block", { element: "active" }); => bem-block__element--active
+createBem({ block: "green" }); => block--green
 
-createBem({ block: "active" }, { element: "active" }); => bem-block--active__element--active
+createBem("block", { element: "active" }); => block__element block__element--active
 
-createBem({ block: { warning: "is-show" } }); => bem-block--warning--is-show
+createBem("block", { element: { "is-active": true } }); => block__element block__element--is-active
+
+createBem("block", { element: { "is-active": false } }); => block__element
+
+createBem("block", { element: { "has-color": "black" } }); => block__element block__element--has-color--black
+
+createBem({ block: "active" }, { element: "active" }); => block__element block__element--active
+
+createBem({ block: { "is-show": true } }); => block block--is-show
+
+createBem({ block: { "is-show": false } }); => block
 
 ```
 
