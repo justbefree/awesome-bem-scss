@@ -1,5 +1,5 @@
 {
-  "name": "awesome-bem-scss",
+  "name": "awesome-scss-bem",
   "version": "1.0.0",
   "main": "dist/bem.js",
   "scripts": {
@@ -10,12 +10,12 @@
   "author": "justbefree",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/justbefree/awesome-bem-scss/issues"
+    "url": "https://github.com/justbefree/awesome-scss-bem/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/justbefree/awesome-bem-scss.git"
+    "url": "git+https://github.com/justbefree/awesome-scss-bem.git"
   },
-  "homepage": "https://github.com/justbefree/awesome-bem-scss#readme",
+  "homepage": "https://github.com/justbefree/awesome-scss-bem#readme",
   "description": "BEM technology implemented by SCSS & TypeScript"
 }
