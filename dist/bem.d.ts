@@ -1,13 +1,14 @@
-import { BemConstructorContext, ConfigOptions } from "../types";
+import { BemParserContext, ConfigOptions } from "../types";
 declare class BEM {
     static blockPrefix: string;
     static modifierSeparator: string;
     static elementSeparator: string;
     static config(options: ConfigOptions): void;
-    static parse(name: BemConstructorContext): string;
-    static create(b: BemConstructorContext, e?: BemConstructorContext): string;
+    static BlockParser(name: BemParserContext): string;
+    static ElementParser(b: BemParserContext, e: BemParserContext): string;
+    static create(b: BemParserContext, e?: BemParserContext): string;
 }
 export default BEM;
-export declare const createBem: (b: BemConstructorContext, e?: string | {
+export declare const createBem: (b: BemParserContext, e?: string | {
     [propName: string]: import("../types").StringObject;
 } | undefined) => string;
