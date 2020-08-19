@@ -1,15 +1,15 @@
-# awesome-bem-scss
+# awesome-scss-bem
 
 ## Installation
 
 ```
-npm install awesome-bem-scss --save
+npm install awesome-scss-bem --save
 ```
 
 ## Usage
 
 ```
-import BEM, { createBem } from "awesome-bem-scss";
+import BEM, { createBem } from "awesome-scss-bem";
 
 BEM.confit(options);
 
